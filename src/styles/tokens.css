@@ -1,0 +1,43 @@
+/* =====================================================================
+   HashRoute · "Obsidian & Warm Zinc"
+   Crisp, opaque geometry — no blur, no glass. Semantic colour is reserved
+   for live chain status; warm brass marks focus and the active route.
+   ===================================================================== */
+:root {
+  --bg-base: #08090B;          /* deep obsidian */
+  --surface-1: #0E1013;        /* muted zinc slate */
+  --surface-2: #14171C;        /* layered graphite */
+  --surface-3: #1A1D23;        /* raised controls, opaque */
+  --border-hairline: rgba(255, 255, 255, 0.065);
+  --border-strong: rgba(255, 255, 255, 0.11);
+
+  --text-primary: #F4F4F6;     /* warm off-white */
+  --text-secondary: #A1A1AA;   /* muted zinc */
+  --text-tertiary: #71717A;
+
+  --status-valid: #10B981;     /* muted jade */
+  --status-breach: #E11D48;    /* crimson carmine */
+  --status-warn: #D97706;      /* warm ochre */
+  --accent-exec: #C5A880;      /* warm brass */
+
+  --valid-bg: rgba(16, 185, 129, 0.08);
+  --valid-line: rgba(16, 185, 129, 0.32);
+  --breach-bg: rgba(225, 29, 72, 0.1);
+  --breach-line: rgba(225, 29, 72, 0.4);
+  --warn-bg: rgba(217, 119, 6, 0.1);
+  --warn-line: rgba(217, 119, 6, 0.4);
+  --accent-bg: rgba(197, 168, 128, 0.08);
+  --accent-line: rgba(197, 168, 128, 0.42);
+
+  --font-ui: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --text-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --t-micro: 9.5px; --t-xs: 10px; --t-sm: 11px; --t-md: 12px; --t-base: 13px; --t-lg: 16px; --t-xl: 22px; --t-2xl: 24px;
+  --r: 4px;
+  --r-lg: 6px;
+  --gutter: 20px;
+  --ease: cubic-bezier(0.25, 0.1, 0.25, 1);
+
+  color-scheme: dark;
+}
+@media (max-width: 860px) { :root { --gutter: 16px; } }
