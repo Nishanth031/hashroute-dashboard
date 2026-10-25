@@ -37,3 +37,6 @@ src/
 ```
 
 The basemap tiles come from CARTO; when they can't load, the vector fallback in `basemap.js` is drawn instead.
+## Authors & Contributors
+* **G Nishanth** - *Initial Work & Development*
+* **Haneef Muhammad** - *Co-Developer / Contributor / Reseacher*
